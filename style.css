@@ -1,0 +1,88 @@
+body {
+    padding-top: 10px;
+  }
+
+.container{
+    text-align: center;
+}
+
+.header-row{
+    margin-bottom: 45px;
+}
+
+.logo{
+    max-width: 50%;
+}
+
+.text-row{
+    margin-bottom: 50px;
+}
+
+.subheading{
+    font-size: x-large;
+    color: rgb(218, 100, 3);
+}
+
+.subsubheading{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.menu-row{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 40px;
+}
+
+.item-img{
+    object-fit: cover;
+
+}
+
+.food-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-info{
+    display: block;
+}
+
+.item-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50%;
+    margin-left: 15px;
+}
+
+.item-name{
+    display: inline;
+    text-align: left;
+    font-size: larger;
+}
+.item-price{
+    display: inline-block;
+    align-items: right;
+    margin-right: 5px;
+    font-size: larger;
+}
+
+.button-row{
+    position: relative;
+    height: 50%;
+    margin-left: 15px;
+}
+
+.order-button{
+    position: absolute;
+    display: flex;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    font-size: large;
+    bottom: 0;
+}
