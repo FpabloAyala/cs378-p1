@@ -19,12 +19,12 @@ body {
 }
 
 .subheading{
-    font-size: x-large;
+    font-size: 8vw;
     color: rgb(218, 100, 3);
 }
 
 .subsubheading{
-    font-size: x-large;
+    font-size: 7vw;
     font-style: italic;
     font-weight: 500;
 }
@@ -57,13 +57,13 @@ body {
 .item-name{
     display: inline;
     text-align: left;
-    font-size: larger;
+    font-size: 5vw;
 }
 .item-price{
     display: inline-block;
     align-items: right;
     margin-right: 5px;
-    font-size: larger;
+    font-size: 5vw;
 }
 
 .button-row{
@@ -79,7 +79,11 @@ body {
     border: 1px solid black;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
     border-radius: 12px;
-    font-size: large;
+    max-height: 100%;
+    font-size: 4vw;
+
     bottom: 0;
 }
