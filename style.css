@@ -33,11 +33,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 40px;
-}
-
-.item-img{
-    object-fit: cover;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .food-img{
