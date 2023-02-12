@@ -68,8 +68,7 @@ body {
 }
 
 .button-row{
-    height: min-content;
-    width: min-content;
+    height: 50%;
     position: absolute;
     bottom: 3px;
     right: 3px;
@@ -79,40 +78,34 @@ body {
 }
 
 .add-button{
-    display: inline-flex;
-    align-items: flex-end;
-    border-radius: 100%;
-    height: 2vw;
-    width: 2vw;
-    padding-right: 0.4vw;
-    padding-left: 0.4vw;
-    background-color: white;
-    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 0%;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 10px;
     font-weight: bold;
-    text-align: center;
-    font-size: 1.5vw;
 }
 
 .remove-button{
-    display: inline-flex;
-    align-items: flex-end;
-    border-radius: 100%;
-    height: 2vw;
-    width: 2vw;
-    padding-right: 0.5vw;
-    padding-left: 0.6vw;
-    background-color: white;
-    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 0%;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 10px;
     font-weight: bold;
-    text-align: center;
-    font-size: 1.5vw;
 }
 
 
 .num-item{
     display: table;
     margin: 0 auto;
-    font-size: 1.9vw;
+    font-size: 20px;
     margin-right: 15px;
     margin-left: 15px;
 }
