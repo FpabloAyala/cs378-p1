@@ -144,6 +144,4 @@ function placeOrder(){
     else{
         alert("Order Placed!\n\n" + orderStr);
     }
-
-    clearItems();
 }
